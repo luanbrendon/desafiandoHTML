@@ -1,0 +1,65 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    width: 80%;
+    height: 80%;
+    background-color: hsl(0, 0%, 10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    flex-direction: column;
+    border-radius: 5%;
+    padding: 2rem;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+
+}
+
+.cidade {
+    color: hsl(75, 94%, 57%);
+    margin-top: 0.5rem;
+}
+
+.sub
+{
+    margin-top: 1.5rem;
+}
+
+li {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    font-weight: 700;
+}
