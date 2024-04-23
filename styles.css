@@ -81,19 +81,19 @@ nav {
 /* Media queries para dispositivos maiores */
 @media (min-width: 768px) {
     main {
-        width: 80%; /* Ajustando para tablets */
+        width: 60%; /* Ajustando para tablets */
     }
 }
 
 @media (min-width: 1024px) {
     main {
-        width: 70%; /* Ajustando para telas maiores */
+        width: 50%; /* Ajustando para telas maiores */
     }
 }
 
 @media (min-width: 1440px) {
     main {
-        width: 60%; /* Ajustando para o design Desktop: 1440px */
+        width: 30%; /* Ajustando para o design Desktop: 1440px */
     }
 }
 
